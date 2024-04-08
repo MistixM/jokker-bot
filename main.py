@@ -4,7 +4,7 @@ from googletrans import Translator
 import telebot
 import requests
 
-TOKEN = '7037179873:AAH4PCFZEhpwAC_bJuEQlzXOUO_BTj8Ymk0'
+TOKEN = 'TOKEN'
 bot = telebot.TeleBot(TOKEN)
 translator = Translator()
 url = 'https://api.api-ninjas.com/v1/jokes?limit=1'
